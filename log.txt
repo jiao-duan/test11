@@ -1,0 +1,95 @@
+[0.005s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.
+[0.011s][info   ][gc] Using Serial
+[0.011s][info   ][gc,heap,coops] Heap address: 0x0000000780000000, size: 1024 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Listening for transport dt_socket at address: 19999
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+[0.722s][info   ][gc,start     ] GC(0) Pause Full (Metadata GC Threshold)
+[0.722s][info   ][gc,phases,start] GC(0) Phase 1: Mark live objects
+[0.728s][info   ][gc,phases      ] GC(0) Phase 1: Mark live objects 5.408ms
+[0.728s][info   ][gc,phases,start] GC(0) Phase 2: Compute new object addresses
+[0.736s][info   ][gc,phases      ] GC(0) Phase 2: Compute new object addresses 8.824ms
+[0.736s][info   ][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[0.740s][info   ][gc,phases      ] GC(0) Phase 3: Adjust pointers 3.878ms
+[0.740s][info   ][gc,phases,start] GC(0) Phase 4: Move objects
+[0.742s][info   ][gc,phases      ] GC(0) Phase 4: Move objects 1.985ms
+[0.743s][info   ][gc,heap        ] GC(0) DefNew: 103573K->0K(157248K)
+[0.743s][info   ][gc,heap        ] GC(0) Tenured: 0K->5365K(349568K)
+[0.743s][info   ][gc,metaspace   ] GC(0) Metaspace: 20422K(21248K)->20422K(21248K) NonClass: 18199K(18688K)->18199K(18688K) Class: 2223K(2560K)->2223K(2560K)
+[0.743s][info   ][gc             ] GC(0) Pause Full (Metadata GC Threshold) 101M->5M(495M) 20.646ms
+[0.743s][info   ][gc,cpu         ] GC(0) User=0.02s Sys=0.00s Real=0.02s
+2024-01-30 15:01:00.919  INFO 65242 --- [           main] com.dj.codingdog.student.Application     : Starting Application v1.0.0-SNAPSHOT using Java 11.0.19 on duanjiaodeMacBook-Pro.local with PID 65242 (/Users/duanjiao/Code/JavaCode/CodingDogCode/output/student/target/student-web-1.0.0-SNAPSHOT.jar started by duanjiao in /Users/duanjiao/Code/JavaCode/CodingDogCode/output/student)
+2024-01-30 15:01:00.921 DEBUG 65242 --- [           main] com.dj.codingdog.student.Application     : Running with Spring Boot v2.7.1, Spring v5.3.21
+2024-01-30 15:01:00.921  INFO 65242 --- [           main] com.dj.codingdog.student.Application     : No active profile set, falling back to 1 default profile: "default"
+[1.111s][info   ][gc,start       ] GC(1) Pause Young (Allocation Failure)
+[1.117s][info   ][gc,heap        ] GC(1) DefNew: 139904K->2908K(157376K)
+[1.117s][info   ][gc,heap        ] GC(1) Tenured: 5365K->5365K(349568K)
+[1.117s][info   ][gc,metaspace   ] GC(1) Metaspace: 28550K(29440K)->28550K(29440K) NonClass: 25323K(25856K)->25323K(25856K) Class: 3227K(3584K)->3227K(3584K)
+[1.117s][info   ][gc             ] GC(1) Pause Young (Allocation Failure) 141M->8M(495M) 5.360ms
+[1.117s][info   ][gc,cpu         ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[1.412s][info   ][gc,start       ] GC(2) Pause Full (Metadata GC Threshold)
+[1.412s][info   ][gc,phases,start] GC(2) Phase 1: Mark live objects
+[1.422s][info   ][gc,phases      ] GC(2) Phase 1: Mark live objects 9.464ms
+[1.422s][info   ][gc,phases,start] GC(2) Phase 2: Compute new object addresses
+[1.430s][info   ][gc,phases      ] GC(2) Phase 2: Compute new object addresses 8.260ms
+[1.430s][info   ][gc,phases,start] GC(2) Phase 3: Adjust pointers
+[1.438s][info   ][gc,phases      ] GC(2) Phase 3: Adjust pointers 8.271ms
+[1.438s][info   ][gc,phases,start] GC(2) Phase 4: Move objects
+[1.440s][info   ][gc,phases      ] GC(2) Phase 4: Move objects 2.254ms
+[1.441s][info   ][gc,heap        ] GC(2) DefNew: 80158K->0K(157376K)
+[1.441s][info   ][gc,heap        ] GC(2) Tenured: 5365K->10755K(349568K)
+[1.441s][info   ][gc,metaspace   ] GC(2) Metaspace: 34220K(35424K)->34220K(35424K) NonClass: 30209K(30944K)->30209K(30944K) Class: 4010K(4480K)->4010K(4480K)
+[1.441s][info   ][gc             ] GC(2) Pause Full (Metadata GC Threshold) 83M->10M(495M) 28.503ms
+[1.441s][info   ][gc,cpu         ] GC(2) User=0.06s Sys=0.00s Real=0.03s
+2024-01-30 15:01:01.654  INFO 65242 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-01-30 15:01:01.663  INFO 65242 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-30 15:01:01.663  INFO 65242 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-01-30 15:01:01.711  INFO 65242 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-30 15:01:01.711  INFO 65242 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2024-01-30 15:01:01.775  INFO 65242 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-01-30 15:01:02.228  INFO 65242 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+[2.230s][info   ][gc,start       ] GC(3) Pause Young (Allocation Failure)
+[2.241s][info   ][gc,heap        ] GC(3) DefNew: 139904K->7536K(157376K)
+[2.241s][info   ][gc,heap        ] GC(3) Tenured: 10755K->10755K(349568K)
+[2.241s][info   ][gc,metaspace   ] GC(3) Metaspace: 50455K(51936K)->50455K(51936K) NonClass: 44592K(45536K)->44592K(45536K) Class: 5862K(6400K)->5862K(6400K)
+[2.241s][info   ][gc             ] GC(3) Pause Young (Allocation Failure) 147M->17M(495M) 11.322ms
+[2.241s][info   ][gc,cpu         ] GC(3) User=0.03s Sys=0.00s Real=0.01s
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.4.3 
+2024-01-30 15:01:02.803  INFO 65242 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-01-30 15:01:02.809  INFO 65242 --- [           main] com.dj.codingdog.student.Application     : Started Application in 2.321 seconds (JVM running for 2.668)
+2024-01-30 15:01:23.432  INFO 65242 --- [nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-30 15:01:23.432  INFO 65242 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-30 15:01:23.433  INFO 65242 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[23.317s][info   ][gc,start       ] GC(4) Pause Young (Allocation Failure)
+[23.330s][info   ][gc,heap        ] GC(4) DefNew: 147440K->10978K(157376K)
+[23.330s][info   ][gc,heap        ] GC(4) Tenured: 10755K->10755K(349568K)
+[23.330s][info   ][gc,metaspace   ] GC(4) Metaspace: 56173K(58080K)->56173K(58080K) NonClass: 49677K(50912K)->49677K(50912K) Class: 6496K(7168K)->6496K(7168K)
+[23.330s][info   ][gc             ] GC(4) Pause Young (Allocation Failure) 154M->21M(495M) 13.323ms
+[23.330s][info   ][gc,cpu         ] GC(4) User=0.01s Sys=0.00s Real=0.02s
+2024-01-30 15:01:23.511 DEBUG 65242 --- [nio-9999-exec-1] c.d.c.s.mapper.ClassesMapper.selectList  : ==>  Preparing: SELECT id,course_id,teacher_id,semester,year FROM classes
+[23.379s][info   ][gc,start       ] GC(5) Pause Full (Metadata GC Threshold)
+[23.380s][info   ][gc,phases,start] GC(5) Phase 1: Mark live objects
+[23.396s][info   ][gc,phases      ] GC(5) Phase 1: Mark live objects 16.401ms
+[23.396s][info   ][gc,phases,start] GC(5) Phase 2: Compute new object addresses
+[23.401s][info   ][gc,phases      ] GC(5) Phase 2: Compute new object addresses 4.910ms
+[23.401s][info   ][gc,phases,start] GC(5) Phase 3: Adjust pointers
+[23.414s][info   ][gc,phases      ] GC(5) Phase 3: Adjust pointers 13.345ms
+[23.414s][info   ][gc,phases,start] GC(5) Phase 4: Move objects
+[23.417s][info   ][gc,phases      ] GC(5) Phase 4: Move objects 3.051ms
+[23.418s][info   ][gc,heap        ] GC(5) DefNew: 21220K->0K(157376K)
+[23.418s][info   ][gc,heap        ] GC(5) Tenured: 10755K->21635K(349568K)
+[23.418s][info   ][gc,metaspace   ] GC(5) Metaspace: 57271K(58976K)->57271K(58976K) NonClass: 50666K(51680K)->50666K(51680K) Class: 6605K(7296K)->6605K(7296K)
+[23.418s][info   ][gc             ] GC(5) Pause Full (Metadata GC Threshold) 31M->21M(495M) 38.085ms
+[23.418s][info   ][gc,cpu         ] GC(5) User=0.04s Sys=0.00s Real=0.03s
+2024-01-30 15:01:23.568 DEBUG 65242 --- [nio-9999-exec-1] c.d.c.s.mapper.ClassesMapper.selectList  : ==> Parameters: 
+2024-01-30 15:01:23.584 DEBUG 65242 --- [nio-9999-exec-1] c.d.c.s.mapper.ClassesMapper.selectList  : <==      Total: 0
